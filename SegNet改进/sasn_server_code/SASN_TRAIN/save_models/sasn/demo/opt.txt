@@ -1,0 +1,50 @@
+----------------- Options ---------------
+                       a1: 1                             
+                       a2: 0                             
+                       a3: 0                             
+               batch_size: 16                            	[default: 2]
+                    beta1: 0.5                           
+          checkpoints_dir: ./save_models                 
+           continue_train: False                         
+                 csv_name:                               
+                 dataroot: /dev/shm                      	[default: None]
+                  dataset: multivkitti                   	[default: kitti]
+                     disp: disp                          
+               early_stop: 1000                          
+                    epoch: latest                        
+              epoch_count: 1                             
+               epoch_load:                               
+                       f1: 0                             
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: kaiming                       
+                  isTrain: True                          	[default: None]
+                lambda_L1: 100.0                         
+                       lr: 0.05                          	[default: 0.01]
+          lr_decay_epochs: 20                            
+           lr_decay_iters: 5                             
+                 lr_gamma: 0.9                           
+                lr_policy: lambda                        	[default: step]
+                make_name: demo                          	[default: ]
+                    model: roadseg                       
+               model_type: 1                             
+                 momentum: 0.9                           
+                     name: sasn                          	[default: experiment_name]
+                   nepoch: 100                           	[default: 1000]
+                     norm: instance                      
+              num_threads: 8                             
+                    phase: train                         
+               print_freq: 10                            
+               save_begin: 0                             
+              save_period: 100                           	[default: 1000]
+                     seed: 0                             
+           serial_batches: False                         
+                      sne: d2ntv2                        	[default: ]
+             split_scheme: ./datasets/all_120            
+                useHeight: 320                           	[default: 384]
+                 useWidth: 320                           	[default: 1248]
+                  use_sne: True                          	[default: False]
+                  verbose: False                         
+                   visual: False                         
+             weight_decay: 0.0005                        
+----------------- End -------------------

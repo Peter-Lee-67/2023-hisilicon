@@ -1,0 +1,56 @@
+
+<!-- <view class="user">
+  <image class="avatar" src="{{userInfo.avatarUrl}}" data-person="{{userInfo}}"></image>
+  <text class="nickName">{{userInfo.nickName}}</text>
+</view> -->
+
+<view class="body">
+  <view style="font-weight: bold;">
+    设备信息
+  </view>
+  <text>\n</text>
+  <view class="box">
+    <view class="cell">
+      <view class="status-left">产品ID</view>
+      <view class="status-right">{{productId}}</view>
+    </view>
+    <view class="cell">
+      <view class="status-left">设备名称</view>
+      <view class="status-right">{{deviceName}}</view>
+    </view>
+  </view>
+
+  <text>\n</text>
+
+  <form bindsubmit="">
+    <view style="display:flex; flex-direction:row; justify-content: space-between;">
+      <view style="font-weight: bold;">
+        获取云端数据
+      </view>
+      <view>
+        <button type="primary" size="mini" bindtap="update">刷新</button>
+      </view>
+    </view>
+    <view class="box">
+      <view class="cell">
+        <view class="left">裂纹情况</view>
+        <view class="right">
+          {{Result}}
+        </view>
+      
+      </view>
+      <!-- <view class="cell">
+        <view class="left">湿度</view>
+        <view class="right">
+          {{stateReported.humidity}}
+        </view>
+        <view class="unit">%</view>
+      </view>
+      <view class="cell">
+        <view class="left">光照强度</view>
+        <view class="right">{{stateReported.light_intensity}}</view>
+        <view class="unit">lux</view>
+      </view> -->
+    </view>
+  </form>
+</view>

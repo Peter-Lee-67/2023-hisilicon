@@ -1,0 +1,11 @@
+<!--pages/cover/cover.wxml-->
+<view class="title">嵌入式大作业Demo
+</view>
+
+
+<view class="userinfo">
+<button bindtap="getUserProfile" > 获取头像昵称 </button>
+</view>
+
+
+<!-- <button class="login" bindtap="getUserProfile">点击登入</button> -->

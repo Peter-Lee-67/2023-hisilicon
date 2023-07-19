@@ -1,0 +1,25 @@
+/* pages/cover/cover.wxss */
+.title{
+  font-size: 50rpx;
+  padding:10rpx 0;
+  margin-left: 150rpx;
+  margin-right: 150rpx;
+  margin-top: 100rpx;
+}
+
+
+.userinfo {
+  margin-top: 300rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(129, 152, 201);
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}

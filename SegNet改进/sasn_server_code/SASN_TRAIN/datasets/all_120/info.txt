@@ -1,0 +1,6 @@
+clone for train, all augs for val and testseed: 38
+train file number: 360
+valid file number: 120
+test file number: 120
+save dir: E:\VKITTI2
+val and test select scene: 6

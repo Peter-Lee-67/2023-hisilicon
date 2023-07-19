@@ -1,0 +1,44 @@
+{
+  "pages": [
+
+    "pages/login/login", 
+    "pages/index/index",
+    "pages/msgSendRead/msgSendRead",
+    "pages/TencentCloud/TencentCloud",
+    "pages/logs/logs"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "道路缺陷检测",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "wifi列表需要获取您的授权信息"
+    }
+  },
+
+  "tabBar": {
+    "selectedColor": "#81DAF5",
+    "list": [
+
+      {
+        "pagePath": "pages/msgSendRead/msgSendRead",
+        "text": "控制",
+        "iconPath": "image/send.png",
+        "selectedIconPath": "image/send_select.png"
+      },
+      {
+        "pagePath": "pages/TencentCloud/TencentCloud",
+        "text": "查看",
+        "iconPath": "image/recieve.png",
+        "selectedIconPath": "image/recieve_select.png"
+      }
+
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

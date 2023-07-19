@@ -1,0 +1,17 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--dataroot", "/dev/shm", "--dataset", "multivkitti", "--name", "demo", "--gpu_ids", "0", "--batch_size", "1", "--epoch", "demo", "--lr_policy", "lambda", "--lr", "0.005", "--useWidth", "320", "--useHeight", "320", "--use_sne", "--sne", "d2ntv2", "--csv_name", "pval2.csv"],
+            "justMyCode": true
+        }
+    ]
+}
